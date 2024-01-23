@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- example file containing base tags -->
+
+<game>
+	<title>DOS</title>
+	<founding-date>Late 2021</founding-date>
+	<website>http://www.metados.com/</website>
+	<based-in>Ho Chi Minh, Vietnam</based-in>
+
+	<press-contact>help@metados.com</press-contact>
+	<phone></phone>
+	<address>
+		<!-- <line>Address Line 1</line>
+		<line>Address Line 2</line>
+		<line>Address Line 3</line> -->
+	</address>
+
+	<socials>
+		<social>
+			<name>twitter.com/MetaDOS</name>
+			<link>twitter.com/MetaDOS</link>
+		</social>
+		<!-- <social>
+			<name>facebook.com/PlayMetaDOS</name>
+			<link>facebook.com/PlayMetaDOS</link>
+		</social> -->
+	</socials>
+
+	<description>
+		&lt;b&gt;MetaDOS&lt;/b&gt; is the next-gen battle royale game using the
+		&lt;b&gt;Time-as-currency&lt;/b&gt; concept.
+		Enjoy faster and more intense battles with the &lt;b&gt;concept of Time&lt;/b&gt;.
+		A Battle Royale where you play as legendary characters (Known as &lt;b&gt;The Players&lt;/b&gt;)
+		with
+		powerful abilities team up to battle in a Tournament with various skills and compete to become
+		the last man or last trio standing.
+		&lt;b&gt;Choose your Player&lt;/b&gt;, each with their own unique personality, strengths, and
+		abilities that
+		are easy to pick up but challenging to truly master.
+		Mind your time, Your Time your life. All Player have to collect enough time to gain more
+		advantage in the battle.
+		Engagements can occur at any time and anywhere, so the process of planning a route to get the
+		best equipment can be seen as a strategy and a fun element.
+	</description>
+
+	<histories>
+		<history>
+			<header></header>
+			<text>Founded in late 2021 and having more than 30 members at this moment, MetaDOS is a top
+				game studio in Vietnam focusing on Esport game development on Web3. MetaDOS aims to become
+				the next generation of Esport by offering an innovative Free to Play Battle Royale game
+				combined with blockchain technology to satisfy both traditional and blockchain gamers.</text>
+		</history>
+	</histories>
+
+	<trailers>
+		<trailer>
+			<name>MetaDOS Gameplay Reel 2023</name>
+			<youtube>Jx7_qyL5_W8</youtube>
+		</trailer>
+		<trailer>
+			<name>MetaDOS: BATTLE ROYALE JUST IN TIME | OFFICIAL ANNOUNCEMENT TRAILER</name>
+			<youtube>ebf7DgOLfiI</youtube>
+		</trailer>
+		<trailer>
+			<name>MetaDOS Unique Point: Time</name>
+			<youtube>q2udN3qe98s</youtube>
+		</trailer>
+		<trailer>
+			<name>MetaDOS Alpha 2 gameplay video</name>
+			<youtube>Dkvw6VtC0wQ</youtube>
+		</trailer>
+		<trailer>
+			<name>MetaDOS - Patch Notes v0.4.1.87</name>
+			<youtube>ziQCfgWcZeY</youtube>
+		</trailer>
+	</trailers>
+
+	<awards>
+		<award>
+			<description>Top 3 Startups - Web3 Disruptors.</description>
+			<info>2022</info>
+		</award>
+		<award>
+			<description>Top 3 Projects - Blockchain Global Day</description>
+			<info>2022</info>
+		</award>
+		<award>
+			<description>Top 5 Projects - Innovation Day</description>
+			<info>2022</info>
+		</award>
+		<award>
+			<description>Top 20 Projects - Web3 Matching DAy</description>
+			<info>2022</info>
+		</award>
+	</awards>
+
+	<quotes>
+		<!-- <quote>
+			<description>This is a rather insignificant quote by a highly important person.</description>
+			<name>Person Name</name>
+			<website>Website</website>
+			<link>http://www.website.com/</link>
+		</quote>
+		<quote>
+			<description>An extremely positive quote from a rather insignificant person. Also
+		great.</description>
+			<name>Some Guy</name>
+			<website>This Page Is Visited By 12 Visitors A Month</website>
+			<link>http://geocities.blog.com/</link>
+		</quote>
+		<quote>
+			<description>I pretend to love this game even though I do not actually understand it.</description>
+			<name>Pretentious Bastard</name>
+			<website>Artsy Page</website>
+			<link>http://art.tumblr.com/</link>
+		</quote>
+		<quote>
+			<description>HOLY SHIT SO AMAZING</description>
+			<name>Caps Guy</name>
+			<website>Angry Review</website>
+			<link>http://thispage.net/angrytube</link>
+		</quote> -->
+	</quotes>
+
+	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>monetize</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->
+	<additionals>
+		<additional>
+			<title>MetaDOS Home</title>
+			<description>Check our Homepage at</description>
+			<link>http://metados.com/</link>
+		</additional>
+		<additional>
+			<title>MetaDOS Campaign Creator</title>
+			<description>Wanna become our partners, check our partner program</description>
+			<link>http://metados.com/partner</link>
+		</additional>
+	</additionals>
+
+	<credits>
+		<credit>
+			<person>Quang Nguyen</person>
+			<website>https://www.linkedin.com/in/nguyenminhquang/</website>
+			<role>CEO</role>
+		</credit>
+		<credit>
+			<person>Anh Le</person>
+			<website>https://www.linkedin.com/in/anh-dos/</website>
+			<role>COO</role>
+		</credit>
+		<credit>
+			<person>Minh Pham</person>
+			<website>https://www.linkedin.com/in/minhpham2369/</website>
+			<role>CTO</role>
+		</credit>
+		<credit>
+			<person>Ky Huynh</person>
+			<website>https://www.linkedin.com/in/kyhuynh86/</website>
+			<role>Lead Game Design</role>
+		</credit>
+		<credit>
+			<person>Kelcee Le</person>
+			<website>https://www.linkedin.com/in/anhlht/</website>
+			<role>Business Director</role>
+		</credit>
+	</credits>
+
+	<contacts>
+		<contact>
+			<name>Inquiries</name>
+			<mail>help@metados.com</mail>
+		</contact>
+		<contact>
+			<name>Twitter</name>
+			<link>https://twitter.com/PlayMetaDOS</link>
+		</contact>
+		<contact>
+			<name>Facebook</name>
+			<link>http://facebook.com/PlayMetaDOS</link>
+		</contact>
+		<contact>
+			<name>Web</name>
+			<link>metados.com</link>
+		</contact>
+	</contacts>
+</game>
