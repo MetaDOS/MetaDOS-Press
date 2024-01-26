@@ -1,6 +1,6 @@
 # sever product
 IMAGE=press_metados
-TAG=0.0.5
+TAG=0.0.6
 
 docker build --platform=linux/amd64 -t $IMAGE:$TAG -t $IMAGE\:latest --target $IMAGE -f Dockerfile .
 

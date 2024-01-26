@@ -234,8 +234,12 @@ echo '					<li><a href="#factsheet">'. tl('Factsheet') .'</a></li>
 						<li><a href="#description">'. tl('Description') .'</a></li>
 						<li><a href="#history">'. tl('History') .'</a></li>
 						<li><a href="#trailers">'. tl('Videos') .'</a></li>
-						<li><a href="#images">'. tl('Images') .'</a></li>
-						<li><a href="#logo">'. tl('Logo & Icon') .'</a></li>';
+						<li><a href="#logo">'. tl('Logo MetaDOS') .'</a></li>
+						<li><a href="#second-token">'. tl('Second Token') .'</a></li>
+						<li><a href="#nft-chest">'. tl('NFT Chest') .'</a></li>
+						<li><a href="#images">'. tl('Hunters') .'</a></li>
+						<li><a href="#hunter-skins">'. tl('Hunter Skins') .'</a></li>
+						<li><a href="#cover-and-screenshot">'. tl('Cover and Screenshot') .'</a></li>';
 						if( count($awards) > 0 ) echo'<li><a href="#awards">'. tl('Awards & Recognition') .'</a></li>';
 						if( count($quotes) > 0 ) echo '<li><a href="#quotes">'. tl('Selected Articles') .'</a></li>';
 
@@ -419,48 +423,12 @@ else
 		}				
 	}
 }
-
-echo '					<hr>
-
-					<h2 id="images">'. tl('Images') .'</h2>';
-
-if( file_exists("images/images.zip") )
-{
-	$filesize = filesize("images/images.zip");
-	if( $filesize > 1024 && $filesize < 1048576 ) {
-		$filesize = (int)( $filesize / 1024 ).'KB';
-	}
-	if( $filesize > 1048576 ) {
-		$filesize = (int)(( $filesize / 1024 ) / 1024 ).'MB';
-	}
-
-	echo '<a href="images/images.zip"><div class="uk-alert">'. tl('download all screenshots & photos as .zip (%s)', $filesize) .'</div></a>';
-}
-
-echo '<div class="uk-grid images">';
-if ($handle = opendir('images'))
-{
-	/* This is the correct way to loop over the directory. */
-	while (false !== ($entry = readdir($handle)))
-	{
-		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
-		{
-			if( substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
-			{	
-				echo '<div class="uk-width-medium-1-2"><a href="images/'. $entry .'"><img src="images/'.$entry.'" alt="'.$entry.'" /></a></div>';
-			}
-		}
-	}
-}
-echo '</div>';
-
-closedir($handle);
-
+/**Logo MetaDOS */
 echo '					<p class="images-text">'. tlHtml('There are far more images available for %s, but these are the ones we felt would be most useful to you. If you have specific requests, please do <a href="#contact">contact us</a>!', COMPANY_TITLE) .'</p>
 
 					<hr>
 
-					<h2 id="logo">'. tl('Logo & Icon') .'</h2>';
+					<h2 id="logo">'. tl('Logo MetaDOS') .'</h2>';
 
 if( file_exists("images/logo.zip") )
 {
@@ -490,6 +458,191 @@ echo '</div>';
 if( !file_exists('images/logo.png') && !file_exists('images/icon.png')) {
 	echo '<p>'. tlHtml('There are currently no logos or icons available for %s. Check back later for more or <a href="#contact">contact us</a> for specific requests!', COMPANY_TITLE) .'</p>';
 }
+/**Logo MetaDOS  */
+/**Second Token */
+echo '					<hr>
+
+					<h2 id="second-token">'. tl('Second Token') .'</h2>';
+
+if( file_exists("images/images.zip") )
+{
+	$filesize = filesize("images/images.zip");
+	if( $filesize > 1024 && $filesize < 1048576 ) {
+		$filesize = (int)( $filesize / 1024 ).'KB';
+	}
+	if( $filesize > 1048576 ) {
+		$filesize = (int)(( $filesize / 1024 ) / 1024 ).'MB';
+	}
+
+	echo '<a href="images/images.zip"><div class="uk-alert">'. tl('download all screenshots & photos as .zip (%s)', $filesize) .'</div></a>';
+}
+echo '<a href="https://drive.google.com/drive/folders/13v2FGJaZQ1k9SHHWhSuuAvLGcbwP5tNT?usp=drive_link"><div class="uk-alert">'. tl('download all Second Token ') .'</div></a>';
+
+echo '<div class="uk-grid images">';
+if ($handle = opendir('images/SecondToken'))
+{
+	/* This is the correct way to loop over the directory. */
+	while (false !== ($entry = readdir($handle)))
+	{
+		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
+		{
+			if( substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+			{	
+				echo '<div class="uk-width-medium-1-2"><a href="images/SecondToken/'. $entry .'"><img src="images/SecondToken/'.$entry.'" alt="'.$entry.'" /></a></div>';
+			}
+		}
+	}
+}
+echo '</div>';
+/**Second Token */
+/**NFT Chest */
+echo '					<hr>
+
+					<h2 id="nft-chest">'. tl('NFT Chest') .'</h2>';
+
+if( file_exists("images/images.zip") )
+{
+	$filesize = filesize("images/images.zip");
+	if( $filesize > 1024 && $filesize < 1048576 ) {
+		$filesize = (int)( $filesize / 1024 ).'KB';
+	}
+	if( $filesize > 1048576 ) {
+		$filesize = (int)(( $filesize / 1024 ) / 1024 ).'MB';
+	}
+
+	echo '<a href="images/images.zip"><div class="uk-alert">'. tl('download all screenshots & photos as .zip (%s)', $filesize) .'</div></a>';
+}
+echo '<a href="https://drive.google.com/drive/folders/1WFWZtrkUQ4FxDgPcGFmKNa__1Yc9kKLi?usp=drive_link"><div class="uk-alert">'. tl('download all NFT Chest') .'</div></a>';
+
+echo '<div class="uk-grid images">';
+if ($handle = opendir('images/NFTChest'))
+{
+	/* This is the correct way to loop over the directory. */
+	while (false !== ($entry = readdir($handle)))
+	{
+		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
+		{
+			if( substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+			{	
+				echo '<div class="uk-width-medium-1-2"><a href="images/NFTChest/'. $entry .'"><img src="images/NFTChest/'.$entry.'" alt="'.$entry.'" /></a></div>';
+			}
+		}
+	}
+}
+echo '</div>';
+/**NFT Chest */
+/*Image */
+echo '					<hr>
+
+					<h2 id="images">'. tl('Hunters') .'</h2>';
+
+if( file_exists("images/images.zip") )
+{
+	$filesize = filesize("images/images.zip");
+	if( $filesize > 1024 && $filesize < 1048576 ) {
+		$filesize = (int)( $filesize / 1024 ).'KB';
+	}
+	if( $filesize > 1048576 ) {
+		$filesize = (int)(( $filesize / 1024 ) / 1024 ).'MB';
+	}
+
+	echo '<a href="images/images.zip"><div class="uk-alert">'. tl('download all screenshots & photos as .zip (%s)', $filesize) .'</div></a>';
+}
+echo '<a href="https://drive.google.com/drive/folders/1hic8KeAs30n4FRTehQq6uQus9IvLIHqX?usp=drive_link"><div class="uk-alert">'. tl('download all screenshots & photos') .'</div></a>';
+
+echo '<div class="uk-grid images">';
+if ($handle = opendir('images/Hunters'))
+{
+	/* This is the correct way to loop over the directory. */
+	while (false !== ($entry = readdir($handle)))
+	{
+		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
+		{
+			if( substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+			{	
+				echo '<div class="uk-width-medium-1-2"><a href="images/Hunters/'. $entry .'"><img src="images/Hunters/'.$entry.'" alt="'.$entry.'" /></a></div>';
+			}
+		}
+	}
+}
+echo '</div>';
+/*Image*/
+/**Hunter Skins */
+echo '					<hr>
+
+					<h2 id="hunter-skins">'. tl('Hunter Skins') .'</h2>';
+
+if( file_exists("images/images.zip") )
+{
+	$filesize = filesize("images/images.zip");
+	if( $filesize > 1024 && $filesize < 1048576 ) {
+		$filesize = (int)( $filesize / 1024 ).'KB';
+	}
+	if( $filesize > 1048576 ) {
+		$filesize = (int)(( $filesize / 1024 ) / 1024 ).'MB';
+	}
+
+	echo '<a href="images/images.zip"><div class="uk-alert">'. tl('download all screenshots & photos as .zip (%s)', $filesize) .'</div></a>';
+}
+echo '<a href="https://drive.google.com/drive/folders/1ejxtsr9a-OZAsy3BwCdtKeuKeB-Pmf2-?usp=drive_link"><div class="uk-alert">'. tl('download all Hunter Skins') .'</div></a>';
+
+echo '<div class="uk-grid images">';
+if ($handle = opendir('images/Hunters/HunterSkins'))
+{
+	/* This is the correct way to loop over the directory. */
+	while (false !== ($entry = readdir($handle)))
+	{	
+		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
+		{
+			if(substr($entry,0,3) != "TN_" && substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+			{	
+				echo '<div class="uk-width-medium-1-2"><a href="images/Hunters/HunterSkins/'. $entry .'"><img src="images/Hunters/HunterSkins/TN_'.$entry.'" alt="'.$entry.'" /></a></div>';
+			}
+		}
+	}
+}
+echo '</div>';
+/**Hunter Skins */
+
+/**Cover and Screenshot */
+echo '					<hr>
+
+					<h2 id="cover-and-screenshot">'. tl('Cover and Screenshot') .'</h2>';
+
+if( file_exists("images/images.zip") )
+{
+	$filesize = filesize("images/images.zip");
+	if( $filesize > 1024 && $filesize < 1048576 ) {
+		$filesize = (int)( $filesize / 1024 ).'KB';
+	}
+	if( $filesize > 1048576 ) {
+		$filesize = (int)(( $filesize / 1024 ) / 1024 ).'MB';
+	}
+
+	echo '<a href="images/images.zip"><div class="uk-alert">'. tl('download all screenshots & photos as .zip (%s)', $filesize) .'</div></a>';
+}
+
+echo '<a href="https://drive.google.com/drive/folders/1eXmYam5LKLQAYnsIQaivLpVgB30gBEHV?usp=drive_link"><div class="uk-alert">'. tl('download all Cover and Screenshot') .'</div></a>';
+
+echo '<div class="uk-grid images">';
+if ($handle = opendir('images/CoverandScreenshot'))
+{
+	/* This is the correct way to loop over the directory. */
+	while (false !== ($entry = readdir($handle)))
+	{
+		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
+		{
+			if( substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+			{	
+				echo '<div class="uk-width-medium-1-2"><a href="images/CoverandScreenshot/'. $entry .'"><img src="images/CoverandScreenshot/'.$entry.'" alt="'.$entry.'" /></a></div>';
+			}
+		}
+	}
+}
+echo '</div>';
+/**Cover and Screenshot */
+
+closedir($handle);
 
 echo '					<hr>';
 

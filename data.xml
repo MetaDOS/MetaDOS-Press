@@ -2,7 +2,7 @@
 <!-- example file containing base tags -->
 
 <game>
-	<title>DOS</title>
+	<title>METADOS</title>
 	<founding-date>Late 2021</founding-date>
 	<website>http://www.metados.com/</website>
 	<based-in>Ho Chi Minh, Vietnam</based-in>
@@ -30,14 +30,14 @@
 		&lt;b&gt;MetaDOS&lt;/b&gt; is the next-gen battle royale game using the
 		&lt;b&gt;Time-as-currency&lt;/b&gt; concept.
 		Enjoy faster and more intense battles with the &lt;b&gt;concept of Time&lt;/b&gt;.
-		A Battle Royale where you play as legendary characters (Known as &lt;b&gt;The Players&lt;/b&gt;)
+		A Battle Royale where you play as legendary characters (Known as &lt;b&gt;The Hunters&lt;/b&gt;)
 		with
 		powerful abilities team up to battle in a Tournament with various skills and compete to become
 		the last man or last trio standing.
-		&lt;b&gt;Choose your Player&lt;/b&gt;, each with their own unique personality, strengths, and
+		&lt;b&gt;Choose your Hunter&lt;/b&gt;, each with their own unique personality, strengths, and
 		abilities that
 		are easy to pick up but challenging to truly master.
-		Mind your time, Your Time your life. All Player have to collect enough time to gain more
+		Mind your time, Your Time your life. All Hunter have to collect enough time to gain more
 		advantage in the battle.
 		Engagements can occur at any time and anywhere, so the process of planning a route to get the
 		best equipment can be seen as a strategy and a fun element.
@@ -55,8 +55,8 @@
 
 	<trailers>
 		<trailer>
-			<name>MetaDOS Gameplay Reel 2023</name>
-			<youtube>Jx7_qyL5_W8</youtube>
+			<name>MetaDOS: Development Reel</name>
+			<youtube>XFGq1zWIpgE</youtube>
 		</trailer>
 		<trailer>
 			<name>MetaDOS: BATTLE ROYALE JUST IN TIME | OFFICIAL ANNOUNCEMENT TRAILER</name>
