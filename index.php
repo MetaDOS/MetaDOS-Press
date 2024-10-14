@@ -239,7 +239,16 @@ echo '					<li><a href="#factsheet">'. tl('Factsheet') .'</a></li>
 						<li><a href="#nft-chest">'. tl('NFT Chest') .'</a></li>
 						<li><a href="#images">'. tl('Hunters') .'</a></li>
 						<li><a href="#hunter-skins">'. tl('Hunter Skins') .'</a></li>
-						<li><a href="#cover-and-screenshot">'. tl('Cover and Screenshot') .'</a></li>';
+						<li><a href="#cover-and-screenshot">'. tl('Cover and Screenshot') .'</a></li>
+						<li><a href="#fonts">'. tl('Fonts') .'</a></li>
+						<li><a href="#in-game-screenshot">'. tl('Ingame Screenshot') .'</a></li>
+						<li><a href="#keyart-and-cover">'. tl('Keyart and Cover') .'</a></li>
+						<li><a href="#store-artworks">'. tl('Store Artworks') .'</a></li>
+						<li><a href="#throwables">'. tl('Throwables') .'</a></li>
+						<li><a href="#weapons">'. tl('Weapons') .'</a></li>
+						
+						
+';
 						if( count($awards) > 0 ) echo'<li><a href="#awards">'. tl('Awards & Recognition') .'</a></li>';
 						if( count($quotes) > 0 ) echo '<li><a href="#quotes">'. tl('Selected Articles') .'</a></li>';
 
@@ -641,6 +650,140 @@ if ($handle = opendir('images/CoverandScreenshot'))
 }
 echo '</div>';
 /**Cover and Screenshot */
+
+/**Fonts */
+echo '<hr>
+
+	<h2 id="fonts">'. tl('Fonts') .'</h2>';
+
+echo '<a href="https://drive.google.com/drive/folders/1hJfG45-LHqtXIkKZIg1FXUAqB0bVPRSx?usp=drive_link"><div class="uk-alert">'. tl('download all Fonts') .'</div></a>';
+
+/**Fonts*/
+
+/**Ingame Screenshot */
+echo '					<hr>
+
+					<h2 id="in-game-screenshot">'. tl('Ingame Screenshot') .'</h2>';
+
+echo '<a href="https://drive.google.com/drive/folders/1AftaSJqjOggJZVgWaYhF5WnpDFBjftEC"><div class="uk-alert">'. tl('download all Ingame Screenshot') .'</div></a>';
+
+echo '<div class="uk-grid images">';
+// if ($handle = opendir('images/Hunters/HunterSkins'))
+// {
+// 	/* This is the correct way to loop over the directory. */
+// 	while (false !== ($entry = readdir($handle)))
+// 	{	
+// 		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
+// 		{
+// 			if(substr($entry,0,3) != "TN_" && substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+// 			{	
+// 				echo '<div class="uk-width-medium-1-2"><a href="images/Hunters/HunterSkins/'. $entry .'"><img src="images/Hunters/HunterSkins/TN_'.$entry.'" alt="'.$entry.'" /></a></div>';
+// 			}
+// 		}
+// 	}
+// }
+echo '</div>';
+/**Ingame Screenshot */
+
+/**Keyart and Cover */
+echo '					<hr>
+
+					<h2 id="keyart-and-cover">'. tl('Keyart and Cover') .'</h2>';
+
+echo '<a href="https://drive.google.com/drive/folders/1cFCUXsngk_WV6ynySQvp1fQIQs_2FBDG?usp=drive_link"><div class="uk-alert">'. tl('download all Keyart and Cover') .'</div></a>';
+
+echo '<div class="uk-grid images">';
+// if ($handle = opendir('images/Hunters/HunterSkins'))
+// {
+// 	/* This is the correct way to loop over the directory. */
+// 	while (false !== ($entry = readdir($handle)))
+// 	{	
+// 		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
+// 		{
+// 			if(substr($entry,0,3) != "TN_" && substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+// 			{	
+// 				echo '<div class="uk-width-medium-1-2"><a href="images/Hunters/HunterSkins/'. $entry .'"><img src="images/Hunters/HunterSkins/TN_'.$entry.'" alt="'.$entry.'" /></a></div>';
+// 			}
+// 		}
+// 	}
+// }
+echo '</div>';
+/**Keyart and Cover */
+
+/**Store Artworks */
+echo '					<hr>
+
+					<h2 id="store-artworks">'. tl('Store Artworks') .'</h2>';
+
+echo '<a href="https://drive.google.com/drive/folders/1cdyqqQm3LH5pTsFQySLeVT6NU1_zml7f?usp=drive_link"><div class="uk-alert">'. tl('download all Store Artworks') .'</div></a>';
+
+echo '<div class="uk-grid images">';
+// if ($handle = opendir('images/Hunters/HunterSkins'))
+// {
+// 	/* This is the correct way to loop over the directory. */
+// 	while (false !== ($entry = readdir($handle)))
+// 	{	
+// 		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
+// 		{
+// 			if(substr($entry,0,3) != "TN_" && substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+// 			{	
+// 				echo '<div class="uk-width-medium-1-2"><a href="images/Hunters/HunterSkins/'. $entry .'"><img src="images/Hunters/HunterSkins/TN_'.$entry.'" alt="'.$entry.'" /></a></div>';
+// 			}
+// 		}
+// 	}
+// }
+echo '</div>';
+/**Store Artworks */
+
+/**Throwables */
+echo '					<hr>
+
+					<h2 id="throwables">'. tl('Throwables') .'</h2>';
+
+echo '<a href="https://drive.google.com/drive/folders/1B1YJkROK7-B9LJu329a2shogoEsmX5tT?usp=drive_link"><div class="uk-alert">'. tl('download all Throwables') .'</div></a>';
+
+echo '<div class="uk-grid images">';
+// if ($handle = opendir('images/Hunters/HunterSkins'))
+// {
+// 	/* This is the correct way to loop over the directory. */
+// 	while (false !== ($entry = readdir($handle)))
+// 	{	
+// 		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
+// 		{
+// 			if(substr($entry,0,3) != "TN_" && substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+// 			{	
+// 				echo '<div class="uk-width-medium-1-2"><a href="images/Hunters/HunterSkins/'. $entry .'"><img src="images/Hunters/HunterSkins/TN_'.$entry.'" alt="'.$entry.'" /></a></div>';
+// 			}
+// 		}
+// 	}
+// }
+echo '</div>';
+/**Throwables */
+
+/**Weapons */
+echo '					<hr>
+
+					<h2 id="weapons">'. tl('Weapons') .'</h2>';
+
+echo '<a href="https://drive.google.com/drive/folders/1yWmH3Rd1nCp_sNWCcMBfc3nlNZ6lBoDs?usp=drive_link"><div class="uk-alert">'. tl('download all Weapons') .'</div></a>';
+
+echo '<div class="uk-grid images">';
+// if ($handle = opendir('images/Hunters/HunterSkins'))
+// {
+// 	/* This is the correct way to loop over the directory. */
+// 	while (false !== ($entry = readdir($handle)))
+// 	{	
+// 		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
+// 		{
+// 			if(substr($entry,0,3) != "TN_" && substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+// 			{	
+// 				echo '<div class="uk-width-medium-1-2"><a href="images/Hunters/HunterSkins/'. $entry .'"><img src="images/Hunters/HunterSkins/TN_'.$entry.'" alt="'.$entry.'" /></a></div>';
+// 			}
+// 		}
+// 	}
+// }
+echo '</div>';
+/**Weapons */
 
 closedir($handle);
 
