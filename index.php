@@ -641,9 +641,9 @@ if ($handle = opendir('images/CoverandScreenshot'))
 	{
 		if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
 		{
-			if( substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+			if( substr($entry,0,3) != "TN_" && substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
 			{	
-				echo '<div class="uk-width-medium-1-2"><a href="images/CoverandScreenshot/'. $entry .'"><img src="images/CoverandScreenshot/'.$entry.'" alt="'.$entry.'" /></a></div>';
+				echo '<div class="uk-width-medium-1-2"><a href="images/CoverandScreenshot/'. $entry .'"><img src="images/CoverandScreenshot/TN_'.$entry.'" alt="'.$entry.'" /></a></div>';
 			}
 		}
 	}
